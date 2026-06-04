@@ -1,0 +1,11 @@
+# Ignore all compiled executable files
+*.exe
+*.o
+*.out
+
+# Ignore local compiler flags configuration
+compile_flags.txt
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
