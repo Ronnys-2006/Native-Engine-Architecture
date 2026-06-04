@@ -13,5 +13,5 @@ Standard C++ `std::vector` objects guarantee contiguous memory allocation. When 
 If you attempt to log the address of a standard by-value loop variable (`&val`), the console will output the exact same hexadecimal stack address every loop iteration. It is merely printing the address of the temporary bucket, not the data itself.
 
 ## Complexity Profile
-* **Time Complexity:** `$O(n)$` - Single traversal.
-* **Space Complexity:** `$O(1)$` - Zero new memory allocated (due to reference passing).
+* **Time Complexity:** $O(n)$ - Single traversal.
+* **Space Complexity:** $O(1)$ - Zero new memory allocated (due to reference passing).
